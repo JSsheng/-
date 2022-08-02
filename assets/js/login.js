@@ -17,7 +17,7 @@ const layer = layui.layer;
 //! 正则表达式
 form.verify({
     repass: value => {
-        const pwd = $('.reg-box [name=password').val()
+        const pwd = $('.reg-box [name=password' ).val()
         if (pwd !== value) return "两次密码不一致"
     },
 
